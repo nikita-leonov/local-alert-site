@@ -126,7 +126,15 @@ footer a{
 
 /*Small screens*/
 @media only screen {
-
+  .logo{
+    width: 300px;
+  }
+  .logo p{
+    font-size: 20px;
+  }
+  .form-container{
+    width: 280px;
+  }  
 } /* Define mobile styles */
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
@@ -137,8 +145,15 @@ footer a{
     min-width 641px, medium screens 
 */
 @media only screen and (min-width: 40.063em) {
-    
-
+  .logo{
+    width: 360px;
+  }
+  .logo p{
+    font-size: 24px;
+  }    
+  .form-container{
+    width: 330px;
+  }
 } 
 
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
